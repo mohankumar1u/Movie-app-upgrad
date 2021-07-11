@@ -1,0 +1,26 @@
+#header{
+    background-color: #222;
+    height:36px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#log-btn{
+    color: white;
+    overflow: hidden;
+    height: 36px;
+}
+#logo-btn{
+    background-color: #ff7f7f;
+    height: 35px;
+    animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(359deg);
+    }
+  }
