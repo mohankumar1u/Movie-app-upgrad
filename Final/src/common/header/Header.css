@@ -24,3 +24,33 @@
       transform: rotateY(359deg);
     }
   }
+
+#log-heading{
+    display: flex;
+    justify-content: space-around;
+}
+#log-heading div{
+    width: 50%;
+    text-align: center;
+}
+.border-red{
+    border-bottom: #ff7f7f 5px solid;
+}
+
+#popup{
+    padding: 20px;
+    width:400px;
+}
+.input{
+    padding: 20px 20px 0px !important;
+    margin: auto !important;
+    display: block !important;
+    width: 300px;
+}
+.submit-btn{
+    margin: 20px auto auto !important;
+    display: block !important;
+}
+.display-hidden{
+    display: none!important;
+}

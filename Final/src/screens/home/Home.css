@@ -1,0 +1,36 @@
+#home-header{
+    text-align: center;
+    background-color: #ff9999;
+    font-size: 1rem;
+    padding: 8px;
+}
+#movies-filter{
+    display: flex;
+}
+
+    /* flex-wrap: nowrap !important; */
+
+.upcoming-movies::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  .upcoming-movies::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .upcoming-movies::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .upcoming-movies::-webkit-scrollbar-thumb:hover {
+    background: #afabab; 
+  }
+  #filter-heading{
+      color: #4791db;
+      font-size: 1rem;
+  }
